@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d91fe303-fdc7-4454-981c-3ebbaf7f4365",
+		"name": "EjemploPrueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1873241"
+	},
+	"item": [
+		{
+			"name": "CreateStore",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Pep's Store2\",\r\n    \"category\":\"legumbres\",\r\n    \"owner\":\"Pepe\"\t\r\n    \r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
