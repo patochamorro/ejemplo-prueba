@@ -33,6 +33,22 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "FindStore",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateStore",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }

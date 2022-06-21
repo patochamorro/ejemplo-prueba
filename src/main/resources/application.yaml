@@ -8,7 +8,12 @@ spring:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect 
     #propiedades hibernate 
     spring.jpa.hibernate.ddl-auto: update  
+    
   h2: 
     console.path: /h2-console 
-    console.settings.trace: false 
+    console.settings.trace: true  
     spring.h2.console.settings.web-allow-others: false
+
+spring.jpa.properties.hibernate.show_sql: true    
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE    

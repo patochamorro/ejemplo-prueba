@@ -23,6 +23,22 @@
 				"url": "http://localhost:8080/store"
 			},
 			"response": []
+		},
+		{
+			"name": "FindStore",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateStore",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }

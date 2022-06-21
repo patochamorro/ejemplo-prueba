@@ -4,6 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.pichincha.prueba.demo.entity.Store;
 
-public interface StoreRepository extends JpaRepository<Store,Long > {
+public interface StoreRepository extends JpaRepository<Store, Long> {
 
+	Store findByName(String name);
 }
