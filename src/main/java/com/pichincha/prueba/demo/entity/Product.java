@@ -27,6 +27,7 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "product_id")
 	private Long id;
+	private String code;
 	private String name;
 	private Double price;
 	@OneToMany(mappedBy = "productOwner", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST )

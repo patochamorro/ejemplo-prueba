@@ -16,4 +16,5 @@ spring:
 
 spring.jpa.properties.hibernate.show_sql: true    
 logging.level.org.hibernate.SQL: DEBUG
-logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE    
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE  
+spring.main.allow-bean-definition-overriding: true  
