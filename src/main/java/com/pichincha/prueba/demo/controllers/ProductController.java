@@ -1,17 +1,14 @@
 package com.pichincha.prueba.demo.controllers;
 
-
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.pichincha.prueba.demo.entity.ProductWs;
+import com.pichincha.prueba.demo.exception.StoreNotFoundException;
 import com.pichincha.prueba.demo.service.ProductService;
 
 @RestController
@@ -20,10 +17,15 @@ public class ProductController {
 
 	@Autowired
 	private ProductService productService;
-	 
-	@GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)
-    @ResponseStatus(HttpStatus.OK)
-	public List<ProductWs> findAll(){
-		return productService.findAll();
+
+	@PostMapping("/stockByStore/{storeId}")
+	public ResponseEntity<?> loadProductStore(@PathVariable Long storeId) {
+		try {
+			productService.loadProductsFromWS(storeId);
+			return new ResponseEntity<>(HttpStatus.OK);
+		} catch (StoreNotFoundException e) {
+			return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+		}
+
 	}
 }

@@ -29,14 +29,6 @@ public class ProductServiceImpl implements ProductService {
 	@Autowired
 	private StoreStockRepository storeStockRepository;
 
-	public List<ProductWs> findAll() {
-		RestTemplate restTemplate = new RestTemplate();
-		String baseUrl = "http://demo2595538.mockable.io";
-		baseUrl = baseUrl.concat("/store/products/");
-		Object response = restTemplate.getForEntity(baseUrl, ProductWs.class);
-		return null;
-	}
-
 	@Override
 	public void loadProductsFromWS(Long storeId) throws StoreNotFoundException {
 		Store store = storeRepository.findById(storeId)
@@ -55,15 +47,23 @@ public class ProductServiceImpl implements ProductService {
 		productsToSaveInDb.stream().forEach(product -> productRepository
 				.save(new Product(null, product.getCod(), product.getName(), product.getPrice(), null)));
 
-		List<Product> productsInDb = products.stream().map(product -> productRepository.findByCode(product.getCod()))
+		List<StoreStock> productsInDb = products
+				.stream().map(product -> new StoreStock(null, product.getPrice(),
+						productRepository.findByCode(product.getCod()), store, product.getStock()))
 				.collect(Collectors.toList());
 
-		List<StoreStock> stock = productsInDb.stream()
-				.map(product -> storeStockRepository.findStockByStoreAndproduct(product.getId(), store.getId()))
-				.collect(Collectors.toList()).stream().filter(p -> p != null).collect(Collectors.toList());
-		
-		
-		
+		List<StoreStock> stockToUpdate = productsInDb.stream().map(stock -> {
+			StoreStock productStok = storeStockRepository.findStockByStoreAndproduct(store.getId(),
+					stock.getProductOwner().getId());
+			if (productStok != null) {
+				productStok.setStock(stock.getStock());
+			} else {
+				productStok = stock;
+			}
+			return productStok;
+		}).collect(Collectors.toList());
+
+		storeStockRepository.saveAll(stockToUpdate);
 
 	}
 }

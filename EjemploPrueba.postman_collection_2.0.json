@@ -7,38 +7,74 @@
 	},
 	"item": [
 		{
-			"name": "CreateStore",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"name\":\"Pep's Store2\",\r\n    \"category\":\"legumbres\",\r\n    \"owner\":\"Pepe\"\t\r\n    \r\n}\r\n\r\n",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
+			"name": "Store",
+			"item": [
+				{
+					"name": "CreateStore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Pep's Store2\",\r\n    \"category\":\"legumbres\",\r\n    \"owner\":\"Pepe\"\t\r\n    \r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/store"
+					},
+					"response": []
 				},
-				"url": "http://localhost:8080/store"
-			},
-			"response": []
+				{
+					"name": "FindStore",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "storeName",
+								"value": "Pep's Store",
+								"type": "text"
+							}
+						],
+						"url": "localhost:8080/store"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateStore",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Pep's Store\",\r\n    \"category\":\"frutas\",\r\n    \"owner\":\"Jimmy\"\t\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "localhost:8080/store/1"
+					},
+					"response": []
+				}
+			]
 		},
 		{
-			"name": "FindStore",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "UpdateStore",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
+			"name": "Product",
+			"item": [
+				{
+					"name": "StockProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "localhost:8080/product/stockByStore/1"
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
