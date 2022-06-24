@@ -1,4 +1,4 @@
-package com.pichincha.prueba.demo.entity;
+package com.pichincha.prueba.demo.dto;
 
 import java.util.List;
 

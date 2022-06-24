@@ -8,7 +8,8 @@ import com.pichincha.prueba.demo.entity.StoreStock;
 
 public interface StoreStockRepository extends JpaRepository<StoreStock, Long> {
 
-	@Query(value = "select * from store_stock where product_id = :productId and store_id = :storeId", nativeQuery = true)
-	StoreStock findStockByStoreAndproduct(@Param("storeId") Long storeId, @Param("productId")  Long productId);
+//	@Query(value = "select * from store_stock where product_id = :productId and store_id = :storeId", nativeQuery = true)
+	@Query(value = "select s from StoreStock s where s.productOwner.id = :productId and s.storeOwner.id = :storeId", nativeQuery = false)
+	StoreStock findStockByStoreAndproduct(@Param("storeId") Long storeId, @Param("productId") Long productId);
 
 }

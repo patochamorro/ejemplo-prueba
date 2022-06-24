@@ -1,336 +1,445 @@
-2022-06-22 19:16:56,049 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:16:56,049 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:16:57,098 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.131 seconds (JVM running for 267.029)
-2022-06-22 19:17:23,218 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:17:23,219 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:17:23,697 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:17:23,734 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 508 ms
-2022-06-22 19:17:23,760 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:17:24,543 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:17:24,665 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:17:24,686 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:17:24,703 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.598 seconds (JVM running for 294.634)
-2022-06-22 19:17:24,709 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-06-22 19:17:49,102 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:17:49,103 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:17:50,428 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:17:50,527 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1403 ms
-2022-06-22 19:17:50,583 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:17:51,430 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:17:51,564 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:17:51,583 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:17:51,595 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 2.708 seconds (JVM running for 321.525)
-2022-06-22 19:17:51,605 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-06-22 19:17:53,860 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:17:53,860 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:17:54,342 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:17:54,374 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 510 ms
-2022-06-22 19:17:54,396 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:17:54,719 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:17:54,851 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:17:54,869 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:17:54,884 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.093 seconds (JVM running for 324.815)
-2022-06-22 19:17:54,887 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-06-22 19:18:40,078 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:18:40,079 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:18:40,542 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:18:40,574 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 491 ms
-2022-06-22 19:18:40,601 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:18:40,956 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:18:41,090 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:18:41,107 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:18:41,120 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.11 seconds (JVM running for 371.05)
-2022-06-22 19:18:41,124 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-06-22 19:19:17,155 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:19:17,155 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:19:18,127 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.029 seconds (JVM running for 408.058)
-2022-06-22 19:19:23,470 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:19:23,470 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:19:23,926 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:19:23,953 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 479 ms
-2022-06-22 19:19:23,980 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:19:24,294 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:19:24,417 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:19:24,440 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:19:24,462 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.063 seconds (JVM running for 414.392)
-2022-06-22 19:19:24,465 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-06-22 19:23:10,504 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:23:10,505 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:23:10,971 ERROR [restartedMain] org.springframework.boot.SpringApplication : Application run failed
-java.lang.IllegalStateException: Unable to load cache item
-	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:79)
-	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
-	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:134)
-	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:319)
-	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:572)
-	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:419)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:137)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:109)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:447)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:268)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:325)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:147)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.pichincha.prueba.demo.EjemploPruebaApplication.main(EjemploPruebaApplication.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.NoClassDefFoundError: HttpSecurity
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
-	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
-	at org.springframework.cglib.core.ReflectUtils.addAllMethods(ReflectUtils.java:448)
-	at org.springframework.cglib.proxy.Enhancer.getMethods(Enhancer.java:635)
-	at org.springframework.cglib.proxy.Enhancer.generateClass(Enhancer.java:670)
-	at org.springframework.cglib.transform.TransformingClassGenerator.generateClass(TransformingClassGenerator.java:33)
-	at org.springframework.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
-	at org.springframework.cglib.core.ClassLoaderAwareGeneratorStrategy.generate(ClassLoaderAwareGeneratorStrategy.java:57)
-	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:358)
-	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:585)
-	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:110)
-	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:108)
-	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
-	... 25 common frames omitted
-Caused by: java.lang.ClassNotFoundException: HttpSecurity
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	at java.base/java.lang.Class.forName0(Native Method)
-	at java.base/java.lang.Class.forName(Class.java:398)
-	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	... 41 common frames omitted
-2022-06-22 19:24:45,382 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-06-22 19:24:45,387 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-06-22 19:24:45,401 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 18456 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:24:45,402 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:24:45,554 WARN [restartedMain] org.springframework.context.support.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.pichincha.prueba.demo.EjemploPruebaApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/security/web/AuthenticationEntryPoint.class] cannot be opened because it does not exist
-2022-06-22 19:24:45,565 ERROR [restartedMain] org.springframework.boot.SpringApplication : Application run failed
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.pichincha.prueba.demo.EjemploPruebaApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/security/web/AuthenticationEntryPoint.class] cannot be opened because it does not exist
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.pichincha.prueba.demo.EjemploPruebaApplication.main(EjemploPruebaApplication.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.io.FileNotFoundException: class path resource [org/springframework/security/web/AuthenticationEntryPoint.class] cannot be opened because it does not exist
-	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
-	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
-	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
-	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
-	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
-	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
-	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
-	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696)
-	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getInterfaces(ConfigurationClassParser.java:1024)
-	at org.springframework.context.annotation.ConfigurationClassParser.processInterfaces(ConfigurationClassParser.java:386)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:332)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:304)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
-	... 18 common frames omitted
-2022-06-22 19:25:10,184 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 16836 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:25:10,188 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:25:10,280 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-06-22 19:25:10,280 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-06-22 19:25:12,455 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:25:12,647 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2365 ms
-2022-06-22 19:25:13,087 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:25:13,115 ERROR [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatStarter : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthTokentFilter': Unsatisfied dependency expressed through field 'jwtTokenUtil'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtTokenUtil': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.secret' in value "${jwt.secret}"
-2022-06-22 19:25:13,167 WARN [restartedMain] org.springframework.context.support.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-2022-06-22 19:25:13,195 INFO [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+2022-06-23 18:17:55,898 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 13904 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:17:55,903 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:17:56,001 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-23 18:17:56,002 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-23 18:17:58,554 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:17:58,741 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2737 ms
+2022-06-23 18:17:59,223 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:18:02,392 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:18:02,458 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-06-22 19:25:13,229 ERROR [restartedMain] org.springframework.boot.SpringApplication : Application run failed
-org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.pichincha.prueba.demo.EjemploPruebaApplication.main(EjemploPruebaApplication.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
-	... 13 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthTokentFilter': Unsatisfied dependency expressed through field 'jwtTokenUtil'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtTokenUtil': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.secret' in value "${jwt.secret}"
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
-	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
-	... 18 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtTokenUtil': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.secret' in value "${jwt.secret}"
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
-	... 60 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.secret' in value "${jwt.secret}"
-	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
-	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
-	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
-	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
-	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1330)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
-	... 71 common frames omitted
-2022-06-22 19:28:17,397 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 9336 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:28:17,400 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:28:17,488 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-06-22 19:28:17,489 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-06-22 19:28:19,749 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:28:19,915 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2424 ms
-2022-06-22 19:28:20,380 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:28:23,169 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:28:23,242 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: ac35c026-eb61-41be-ba1d-29c4e915fa48
+Using generated security password: 838fe8de-1646-4a1e-91c3-70fc0ea63f94
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2022-06-22 19:28:24,022 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:28:24,101 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:28:24,125 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 7.626 seconds (JVM running for 9.863)
-2022-06-22 19:28:44,004 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
-2022-06-22 19:32:15,418 WARN [http-nio-8080-exec-9] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
-2022-06-22 19:32:55,917 WARN [http-nio-8080-exec-2] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
-2022-06-22 19:40:43,032 WARN [http-nio-8080-exec-4] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
-2022-06-22 19:42:33,581 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 9336 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:42:33,582 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:42:34,229 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:42:34,261 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 671 ms
-2022-06-22 19:42:34,289 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:42:34,818 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:42:34,856 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+2022-06-23 18:18:03,348 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:18:03,428 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:18:03,461 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 8.686 seconds (JVM running for 11.21)
+2022-06-23 18:19:14,720 WARN [http-nio-8080-exec-4] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:19:59,437 INFO [http-nio-8080-exec-5] com.pichincha.prueba.demo.service.impl.ProductServiceImpl : Store update for store: Store(id=1, name=Pep's Store2, category=legumbres, owner=Pepe, products=[com.pichincha.prueba.demo.entity.StoreStock@29e7b23e, com.pichincha.prueba.demo.entity.StoreStock@7f7515df, com.pichincha.prueba.demo.entity.StoreStock@1e75b2dd, com.pichincha.prueba.demo.entity.StoreStock@2d479037])
+2022-06-23 18:20:11,678 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:20:14,701 WARN [http-nio-8080-exec-7] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:21:42,912 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 13904 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:21:42,913 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:21:43,616 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:21:43,652 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 731 ms
+2022-06-23 18:21:43,692 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:21:44,261 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:21:44,293 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: e2533de7-0870-45ce-b45c-f13561b7b6bb
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2022-06-22 19:42:35,320 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:42:35,348 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:42:35,357 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.871 seconds (JVM running for 861.096)
-2022-06-22 19:42:35,361 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-06-22 19:48:22,100 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 9336 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:48:22,100 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:48:22,642 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:48:22,681 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 575 ms
-2022-06-22 19:48:22,706 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:48:23,196 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:48:23,226 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 85aa9061-b828-44ee-819e-487e2ba92b9e
+Using generated security password: 81dc5be5-6e19-4541-93e4-aa59bf626c0d
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2022-06-22 19:48:23,472 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:48:23,497 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:48:23,507 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.48 seconds (JVM running for 1209.245)
-2022-06-22 19:48:23,510 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-06-22 19:48:53,452 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 9336 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
-2022-06-22 19:48:53,452 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
-2022-06-22 19:48:53,983 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2022-06-22 19:48:54,017 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 558 ms
-2022-06-22 19:48:54,040 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
-2022-06-22 19:48:54,462 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-22 19:48:54,490 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+2022-06-23 18:21:44,549 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:21:44,567 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:21:44,577 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.743 seconds (JVM running for 232.326)
+2022-06-23 18:21:44,582 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 18:21:50,388 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:21:52,011 WARN [http-nio-8080-exec-2] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:21:55,729 INFO [RMI TCP Connection(14)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-23 18:22:01,697 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 27536 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:22:01,700 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:22:01,792 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-23 18:22:01,792 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-23 18:22:04,024 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:22:04,184 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2391 ms
+2022-06-23 18:22:04,668 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:22:07,671 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:22:07,733 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: daa33316-6dbc-410b-83ef-d3729c28e9c5
+Using generated security password: deed222f-7ec6-40e8-b885-a39de914e84d
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2022-06-22 19:48:54,745 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2022-06-22 19:48:54,768 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-22 19:48:54,798 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.417 seconds (JVM running for 1240.537)
-2022-06-22 19:48:54,805 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 18:22:08,536 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:22:08,612 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:22:08,642 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 7.776 seconds (JVM running for 9.945)
+2022-06-23 18:22:11,579 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:22:13,249 WARN [http-nio-8080-exec-2] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:22:16,595 WARN [http-nio-8080-exec-4] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:22:17,999 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:22:21,352 WARN [http-nio-8080-exec-5] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:23:45,630 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 27536 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:23:45,631 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:23:46,633 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:23:46,675 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1038 ms
+2022-06-23 18:23:46,701 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:23:47,246 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:23:47,282 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d8aaad9e-6b12-4c3a-b322-b17ec96ffbac
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-23 18:23:47,539 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:23:47,559 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:23:47,572 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 2.024 seconds (JVM running for 108.876)
+2022-06-23 18:23:47,587 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 18:23:51,547 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:24:11,400 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:24:23,399 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 27536 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:24:23,400 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:24:25,296 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:24:25,560 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2140 ms
+2022-06-23 18:24:25,692 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:24:28,961 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:24:29,119 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 92a9d53a-a446-4f97-9a6f-33fdbbeab27c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-23 18:24:29,728 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:24:29,811 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:24:29,826 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 6.645 seconds (JVM running for 151.13)
+2022-06-23 18:24:29,830 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 18:24:44,294 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:24:44,464 WARN [http-nio-8080-exec-2] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:24:44,507 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:29:06,777 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 27536 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:29:06,778 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:29:09,891 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:29:10,004 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3214 ms
+2022-06-23 18:29:10,101 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:29:12,752 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:29:12,880 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 23217aa5-749a-474c-9583-7344d088738d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-23 18:29:14,588 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:29:14,692 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:29:14,704 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 8.143 seconds (JVM running for 436.008)
+2022-06-23 18:29:14,712 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 18:29:15,658 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:29:17,351 WARN [http-nio-8080-exec-2] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:29:17,870 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:29:18,115 WARN [http-nio-8080-exec-5] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:29:18,443 WARN [http-nio-8080-exec-4] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:29:27,140 INFO [RMI TCP Connection(23)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-23 18:29:39,305 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 25112 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:29:39,311 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:29:39,456 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-23 18:29:39,457 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-23 18:29:46,615 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:29:47,134 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7675 ms
+2022-06-23 18:29:48,534 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:29:59,812 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:30:00,111 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 34605ed7-22ec-449c-b818-4982d7a23b69
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-23 18:30:02,822 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:30:03,166 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:30:03,216 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 26.113 seconds (JVM running for 31.664)
+2022-06-23 18:30:19,671 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:30:34,328 WARN [http-nio-8080-exec-2] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:31:46,131 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 25112 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:31:46,132 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:31:48,027 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:31:48,132 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1980 ms
+2022-06-23 18:31:48,230 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:31:49,823 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:31:49,922 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fdc899e8-a6c1-43a4-ba5e-69a583fbf358
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-23 18:31:51,066 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:31:51,117 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:31:51,126 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 5.196 seconds (JVM running for 139.574)
+2022-06-23 18:31:51,131 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 18:32:08,467 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:08,734 WARN [http-nio-8080-exec-2] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:08,830 WARN [http-nio-8080-exec-4] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:09,002 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:11,718 WARN [http-nio-8080-exec-5] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:11,831 WARN [http-nio-8080-exec-7] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:11,842 WARN [http-nio-8080-exec-7] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:11,843 WARN [http-nio-8080-exec-8] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:11,860 WARN [http-nio-8080-exec-6] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:16,500 WARN [http-nio-8080-exec-10] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:19,314 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:19,394 WARN [http-nio-8080-exec-2] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:19,417 WARN [http-nio-8080-exec-4] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:19,426 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:19,432 WARN [http-nio-8080-exec-5] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:19,462 WARN [http-nio-8080-exec-9] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:31,607 WARN [http-nio-8080-exec-8] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:31,681 WARN [http-nio-8080-exec-6] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:31,858 WARN [http-nio-8080-exec-7] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:31,858 WARN [http-nio-8080-exec-10] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:31,864 WARN [http-nio-8080-exec-7] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:32:31,865 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:33:13,799 WARN [http-nio-8080-exec-4] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:33:13,877 WARN [http-nio-8080-exec-5] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:33:13,942 WARN [http-nio-8080-exec-9] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:33:13,956 WARN [http-nio-8080-exec-3] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:33:13,963 WARN [http-nio-8080-exec-8] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:33:13,964 WARN [http-nio-8080-exec-6] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:33:55,260 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 25112 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:33:55,261 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:33:55,798 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:33:55,835 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 566 ms
+2022-06-23 18:33:55,860 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:33:56,301 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:33:56,434 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 144f4ac8-ba00-4f1d-9531-47d974b77aa8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-23 18:33:56,487 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:33:56,522 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:33:56,558 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.36 seconds (JVM running for 265.006)
+2022-06-23 18:33:56,577 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-06-23 18:34:06,588 INFO [RMI TCP Connection(15)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-23 18:34:12,397 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 15468 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:34:12,400 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:34:12,490 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-23 18:34:12,491 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-23 18:34:14,775 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:34:14,987 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2495 ms
+2022-06-23 18:34:15,475 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:34:18,689 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:34:19,178 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2b0da6e2-11a3-481c-b3d3-bd2efdd623f2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-23 18:34:19,492 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:34:19,573 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:34:19,593 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 8.054 seconds (JVM running for 10.301)
+2022-06-23 18:35:06,204 WARN [http-nio-8080-exec-4] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:35:11,210 WARN [http-nio-8080-exec-6] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:35:11,224 WARN [http-nio-8080-exec-5] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:35:11,344 WARN [http-nio-8080-exec-7] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:35:11,403 WARN [http-nio-8080-exec-9] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:35:11,490 WARN [http-nio-8080-exec-8] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:35:19,063 WARN [http-nio-8080-exec-1] com.pichincha.prueba.demo.security.config.JwtAuthTokentFilter : JWT Token does not begin with Bearer String
+2022-06-23 18:36:41,083 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 15468 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:36:41,084 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:36:41,704 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:36:41,752 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 662 ms
+2022-06-23 18:36:41,790 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:36:42,257 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:36:42,465 WARN [restartedMain] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6fb3cdea-a345-4a2e-9708-2d2bc4115ab4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-23 18:36:42,508 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:36:42,541 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:36:42,580 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.582 seconds (JVM running for 153.288)
+2022-06-23 18:36:42,591 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 18:36:59,881 INFO [RMI TCP Connection(13)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-23 18:37:05,622 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 20908 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:37:05,626 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:37:05,716 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-23 18:37:05,717 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-23 18:37:07,864 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:37:08,018 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2298 ms
+2022-06-23 18:37:08,495 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:37:11,411 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:37:11,907 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:37:11,990 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:37:12,023 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 7.302 seconds (JVM running for 9.418)
+2022-06-23 18:37:41,747 INFO [http-nio-8080-exec-2] com.pichincha.prueba.demo.service.impl.ProductServiceImpl : Store update for store: Store(id=1, name=Pep's Store2, category=legumbres, owner=Pepe, products=[com.pichincha.prueba.demo.entity.StoreStock@600ca8a6, com.pichincha.prueba.demo.entity.StoreStock@543c1e4f, com.pichincha.prueba.demo.entity.StoreStock@11fed129, com.pichincha.prueba.demo.entity.StoreStock@7084c47c])
+2022-06-23 18:38:03,101 INFO [http-nio-8080-exec-7] com.pichincha.prueba.demo.service.impl.ProductServiceImpl : Store update for store: Store(id=1, name=Pep's Store2, category=legumbres, owner=Pepe, products=[com.pichincha.prueba.demo.entity.StoreStock@2c9bdab, com.pichincha.prueba.demo.entity.StoreStock@9b25570, com.pichincha.prueba.demo.entity.StoreStock@66b980c3, com.pichincha.prueba.demo.entity.StoreStock@1aeefd9e])
+2022-06-23 18:50:50,890 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 20908 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 18:50:50,891 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 18:50:51,422 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 18:50:51,457 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 558 ms
+2022-06-23 18:50:51,478 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 18:50:51,919 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 18:50:52,060 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 18:50:52,097 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 18:50:52,112 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.321 seconds (JVM running for 829.507)
+2022-06-23 18:50:52,118 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 19:06:22,610 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 2968 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:06:22,614 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:06:26,596 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:06:26,938 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4283 ms
+2022-06-23 19:06:32,763 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:06:34,161 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 56268 (http) with context path ''
+2022-06-23 19:06:34,187 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 12.515 seconds (JVM running for 15.448)
+2022-06-23 19:09:15,536 INFO [RMI TCP Connection(43)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-23 19:11:20,716 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 23372 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:11:20,723 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:11:24,292 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:11:24,681 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3910 ms
+2022-06-23 19:11:30,023 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:11:31,418 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 56320 (http) with context path ''
+2022-06-23 19:11:31,482 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 11.643 seconds (JVM running for 14.208)
+2022-06-23 19:12:58,618 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 17656 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:12:58,622 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:13:02,294 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:13:02,621 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3928 ms
+2022-06-23 19:13:08,125 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:13:09,398 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 56330 (http) with context path ''
+2022-06-23 19:13:09,479 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 12.043 seconds (JVM running for 14.661)
+2022-06-23 19:13:31,480 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 26252 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:13:31,483 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:13:35,053 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:13:35,388 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3857 ms
+2022-06-23 19:13:40,851 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:13:42,419 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 56343 (http) with context path ''
+2022-06-23 19:13:42,448 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 11.903 seconds (JVM running for 14.429)
+2022-06-23 19:20:08,913 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 23868 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:20:08,917 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:20:12,509 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:20:12,894 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3908 ms
+2022-06-23 19:20:18,250 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:20:19,514 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 56398 (http) with context path ''
+2022-06-23 19:20:19,533 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 11.569 seconds (JVM running for 14.371)
+2022-06-23 19:20:47,466 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 6168 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:20:47,470 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:20:51,536 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:20:51,926 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4397 ms
+2022-06-23 19:20:56,957 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:20:58,449 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 56408 (http) with context path ''
+2022-06-23 19:20:58,494 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 12.128 seconds (JVM running for 15.294)
+2022-06-23 19:21:31,974 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 1912 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:21:31,981 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:21:32,058 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-23 19:21:32,059 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-23 19:21:34,077 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 19:21:34,223 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2163 ms
+2022-06-23 19:21:34,701 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 19:21:37,520 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:21:37,962 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 19:21:38,092 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 19:21:38,113 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 6.992 seconds (JVM running for 9.201)
+2022-06-23 19:23:14,303 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 26244 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:23:14,308 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:23:18,877 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:23:19,294 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4925 ms
+2022-06-23 19:23:26,108 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:23:28,380 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 56435 (http) with context path ''
+2022-06-23 19:23:28,425 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 15.346 seconds (JVM running for 18.631)
+2022-06-23 19:25:32,524 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 1912 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:25:32,524 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:25:33,137 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 19:25:33,186 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 654 ms
+2022-06-23 19:25:33,220 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 19:25:33,693 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:25:33,844 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 19:25:33,864 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 19:25:33,875 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 1.445 seconds (JVM running for 244.963)
+2022-06-23 19:25:33,879 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 19:27:35,229 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 1912 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:27:35,230 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:27:37,105 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 19:27:37,196 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1951 ms
+2022-06-23 19:27:37,268 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 19:27:38,349 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:27:38,724 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 19:27:38,797 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 19:27:38,822 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 3.754 seconds (JVM running for 369.911)
+2022-06-23 19:27:38,826 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 19:27:41,858 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 1912 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:27:41,859 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:27:43,074 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 19:27:43,147 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1273 ms
+2022-06-23 19:27:43,238 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 19:27:44,287 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:27:44,656 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 19:27:44,712 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 19:27:44,733 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 3.05 seconds (JVM running for 375.821)
+2022-06-23 19:27:44,737 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-23 19:27:53,362 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 1912 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:27:53,365 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:27:54,767 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 19:27:54,862 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
+2022-06-23 19:27:54,919 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 19:28:05,014 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting EjemploPruebaApplication using Java 11.0.11 on DESKTOP-APIH5HR with PID 28008 (D:\Pato\Workspace\Java\ejemplo-prueba\bin\main started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:28:05,018 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:28:05,152 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-23 19:28:05,153 INFO [restartedMain] org.springframework.boot.logging.DeferredLog : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-23 19:28:10,393 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-06-23 19:28:10,910 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5755 ms
+2022-06-23 19:28:12,208 INFO [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ejmplo1'
+2022-06-23 19:28:19,390 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:28:20,145 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-06-23 19:28:20,232 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-23 19:28:20,255 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started EjemploPruebaApplication in 17.274 seconds (JVM running for 22.274)
+2022-06-23 19:29:53,428 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 25544 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:29:53,432 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:29:57,488 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:29:57,939 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4456 ms
+2022-06-23 19:30:19,648 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:30:23,614 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 53042 (http) with context path ''
+2022-06-23 19:30:23,669 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 31.614 seconds (JVM running for 36.259)
+2022-06-23 19:31:35,813 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 4128 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:31:35,820 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:31:40,508 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:31:40,931 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5040 ms
+2022-06-23 19:31:47,881 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:31:49,621 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 53069 (http) with context path ''
+2022-06-23 19:31:49,662 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 15.126 seconds (JVM running for 19.143)
+2022-06-23 19:33:29,951 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 24348 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:33:29,957 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:33:34,310 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:33:34,654 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4620 ms
+2022-06-23 19:33:41,463 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:33:43,510 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 53110 (http) with context path ''
+2022-06-23 19:33:43,571 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 15.015 seconds (JVM running for 19.078)
+2022-06-23 19:35:28,202 INFO [main] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.11 on DESKTOP-APIH5HR with PID 10844 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:35:28,208 INFO [main] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:35:33,284 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:35:33,766 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5486 ms
+2022-06-23 19:35:40,219 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:35:41,972 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 53135 (http) with context path ''
+2022-06-23 19:35:42,075 INFO [main] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 15.152 seconds (JVM running for 19.505)
+2022-06-23 19:44:10,675 INFO [Test worker] org.springframework.boot.StartupInfoLogger : Starting StoreControllerIntegrationTest using Java 11.0.13 on DESKTOP-APIH5HR with PID 24752 (started by patoc in D:\Pato\Workspace\Java\ejemplo-prueba)
+2022-06-23 19:44:10,682 INFO [Test worker] org.springframework.boot.SpringApplication : No active profile set, falling back to 1 default profile: "default"
+2022-06-23 19:44:16,244 INFO [Test worker] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 0 (http)
+2022-06-23 19:44:16,821 INFO [Test worker] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6063 ms
+2022-06-23 19:44:25,222 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 19:44:26,896 INFO [Test worker] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 53394 (http) with context path ''
+2022-06-23 19:44:26,926 INFO [Test worker] org.springframework.boot.StartupInfoLogger : Started StoreControllerIntegrationTest in 18.383 seconds (JVM running for 26.804)
+2022-06-23 21:26:51,238 INFO [RMI TCP Connection(150)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

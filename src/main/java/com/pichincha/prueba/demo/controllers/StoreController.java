@@ -1,5 +1,7 @@
 package com.pichincha.prueba.demo.controllers;
 
+import javax.ws.rs.Produces;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -34,7 +36,8 @@ public class StoreController {
 		}
 	}
 
-	@GetMapping
+	@GetMapping()
+	@Produces("application/json")
 	public ResponseEntity<?> searchStoreByName(@RequestHeader String storeName) {
 		try {
 			return new ResponseEntity<>(storeService.findStoreByName(storeName), HttpStatus.OK);

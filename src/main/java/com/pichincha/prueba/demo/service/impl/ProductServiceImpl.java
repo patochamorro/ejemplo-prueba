@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 
+import com.pichincha.prueba.demo.dto.ProductWs;
+import com.pichincha.prueba.demo.dto.ResponseWs;
 import com.pichincha.prueba.demo.entity.Product;
-import com.pichincha.prueba.demo.entity.ProductWs;
-import com.pichincha.prueba.demo.entity.ResponseWs;
 import com.pichincha.prueba.demo.entity.Store;
 import com.pichincha.prueba.demo.entity.StoreStock;
 import com.pichincha.prueba.demo.exception.StoreNotFoundException;
